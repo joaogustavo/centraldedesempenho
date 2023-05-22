@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset da modelo */
+.navegacao ul li .menu-home {
+	background: #1b547e;
+	color: #ffffff;
+}
+.menu-movel li .menu-home {
+	background: #1b547e;
+	color: #ffffff;
+	pointer-events: none;
+}
+.corpo {
+	background: transparent;
+	max-width: 1220px;
+}
+.corpo:after,
+#titulos,
+.conteudos-navegacao {
+	display: none;
+	visibility: hidden;
+}
+/* banners */
+.banners {
+	display: block;
+}
+/* institucional */
+.institucional-container {
+	display: inline-block;
+	float: left;
+	margin-right: 3%;
+	max-width: 767px;
+	width: 100%;
+}
+.institucional-cabecalho {
+	border-bottom: solid 3px #3182B7;
+	box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.059);
+	line-height: 1.5rem;
+	margin-bottom: 17px;
+	padding: 0;
+	padding-left: 24px;
+	position: relative;
+	width: 100%;
+	z-index: 9;
+}
+.institucional-cabecalho:before {
+	background: url(../img/icone-titulos.svg) no-repeat left top;
+	content: '';
+	height: 40px;
+	left: -6px;
+	position: absolute;
+	top: -6px;
+	width: 24px;
+}
+.institucional-cabecalho:after {
+	background-image: -moz-linear-gradient( 0deg, rgb(255,255,255) 0%, rgba(242,233,226,0.0) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(255,255,255) 0%, rgba(242,233,226,0.0) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(255,255,255) 0%, rgba(242,233,226,0.0) 100%);
+	content: '';
+	height: 36px;
+	position: absolute;
+	right: 0;
+	top: -5px;
+	width: calc(100% - 18px);
+}
+.institucional-cabecalho span {
+	color: #284e6a;
+	font-family: 'MyriadPro Light';
+	font-size: 2rem;
+	letter-spacing: -.01rem;
+	position: relative;
+	text-shadow: 1px 1.732px 2px rgba(0, 64, 109, 0.039);
+	z-index: 9;
+}
+.institucional-cabecalho strong {
+	color: #757575;
+	display: block;
+	font-size: 1.5rem;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+.institucional {
+	display: block;
+	background: url(../img/apresentacao-central-de-desempenho.png) no-repeat left top #ffffff;
+	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.078);
+	font-family: 'MyriadPro Light';
+	font-size: 1.3rem;
+	min-height: 238px;
+	padding: 22px 15px;
+	padding-left: 294px;
+	text-align: justify;
+}
+/* servicos */
+.servicos {
+	display: inline-block;
+	float: right;
+	max-width: 334px;
+	width: 100%;
+}
+.servicos-cabecalho {
+	color: #284e6a;
+	display: block;
+	font-family: 'MyriadPro Light';
+	font-size: 2.1rem;
+	line-height: 1.8rem;
+	margin-bottom: 2px;
+	margin-top: -5px;
+	text-align: right;
+	width: 100%;
+}
+.servicos-cabecalho strong {
+	color: #757575;
+	display: block;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+.servicos ul {
+	display: block;
+	list-style: none;
+	margin: 0 auto;
+	position: relative;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	-webkit-padding-start: 0;
+	text-align: center;
+	width: 100%;
+}
+.servicos ul li a {
+	background: #5aa2c6;
+	border: solid 1px #64afd0;
+	color: #fdfdfd;
+	display: block;
+	font-family: 'MyriadPro Light';
+	font-size: 2.1rem;
+	padding: 20px 16px;
+	padding-left: 77px;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.servicos ul li a:hover,
+.servicos ul li a:hover div:before,
+.servicos ul li a:hover div:after {
+	background: #1B6AA7;
+	text-decoration: none;
+}
+.servicos ul li a:after {
+	background: url(../img/conteudos-final.png) no-repeat left bottom;
+	background-size: contain;
+	bottom: -7px;
+	content: '';
+	height: 12px;
+	left: 0px;
+	opacity: .8;
+	position: absolute;
+	width: 100%;
+	z-index: 0;
+}
+.servicos ul li:nth-child(2) {
+	margin: 18px 0;
+}
+.servicos ul li a div {
+	border: solid 2px #8fbfd9;
+	padding: 4px;
+	position: relative;
+	z-index: 1;
+}
+.servicos ul li a div span {
+	position: relative;
+	z-index: 2;
+}
+.servicos ul li a div:before {
+	background: #5aa2c6;
+	content: '';
+	height: 36px;
+	left: 9px;
+	position: absolute;
+	top: -2px;
+	width: calc(100% - 17px);
+	z-index: 1;
+}
+.servicos ul li a div:after {
+	background: #5AA2C6;
+	content: '';
+	height: 14px;
+	left: -2px;
+	position: absolute;
+	top: 9px;
+	width: calc(100% + 4px);
+	z-index: 1;
+}
+.servico-1-icone,
+.servico-2-icone,
+.servico-3-icone {
+	background: url(../img/padrao-diagonal.png) repeat left top;
+	border-right: solid 1px #64afd0;
+	font-family: "central-desempenho";
+	font-size: 4rem;
+	left: 0;
+	max-width: 58px;
+	padding: 26px 4px;
+	position: absolute;
+	text-align: center;
+	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.165);
+	top: 0;
+	width: 100%;
+}
+@media screen and (max-width: 1279px) {
+.institucional-container {
+	margin-right: 2%;
+}
+}
+@media screen and (max-width: 1187px) {
+.institucional-container {
+	width: calc(100% - 38%);
+}
+}
+@media screen and (max-width: 983px) {
+.institucional-container {
+	width: calc(100% / 2 + 10vw - 10px);
+}
+}
+@media screen and (max-width: 919px) {
+.institucional-container,
+.servicos {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	max-width: 909px;
+	padding: 0 2%;
+	width: 100%;
+}
+.servicos-cabecalho {
+	margin-top: 15px;
+	text-align: left;
+}
+.servicos ul li a:after {
+	bottom: -13px;
+}
+}
+@media screen and (max-width: 785px) {
+.navegacao {
+	margin-right: 16px;
+}
+}
+@media screen and (max-width: 767px) {
+.corpo {
+	margin-top: 45px;
+}
+.servicos {
+	margin-bottom: 15px;
+}
+.servicos ul li a:after {
+	bottom: -12px;
+}
+.servicos ul li a:hover,
+.servicos ul li a:hover div:before,
+.servicos ul li a:hover div:after {
+	background: #1B6AA7;
+	text-decoration: none;
+}
+}
+@media screen and (max-width: 715px) {
+.servicos ul li a:after {
+	bottom: -10px;
+}
+}
+@media screen and (max-width: 643px) {
+.institucional {
+	background-image: none;
+	min-height: 5px;
+	padding-left: 15px;
+}
+}
+@media screen and (max-width: 584px) {
+.servicos ul li a:after {
+	bottom: -9px;
+}
+}
+@media screen and (max-width: 517px) {
+.servicos ul li a:after {
+	bottom: -8px;
+}
+}
+@media screen and (max-width: 450px) {
+.servicos ul li a {
+	font-size: 1.4rem;
+}
+.servicos ul li a:after {
+	bottom: -7px;
+}
+}
+@media screen and (max-width: 384px) {
+.servicos ul li a:after {
+	bottom: -6px;
+}
+}
+@media screen and (max-width: 345px) {
+.institucional-cabecalho strong {
+	font-size: 1.2rem;
+}
+}

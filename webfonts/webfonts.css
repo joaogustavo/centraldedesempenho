@@ -1,0 +1,78 @@
+@font-face {
+	font-family: 'Helvetica Neue 47 Light Cn';
+	src: url('HelveticaNeueLTStd-LtCn_0.eot');
+	src: url('HelveticaNeueLTStd-LtCn_0.eot?#iefix') format('embedded-opentype'), url('HelveticaNeueLTStd-LtCn_0.woff') format('woff'), url('HelveticaNeueLTStd-LtCn_0.ttf') format('truetype'), url('HelveticaNeueLTStd-LtCn_0.svg') format('svg');
+}
+@font-face {
+	font-family: 'Helvetica Neue LT Std 57 Cn';
+	src: url('helveticaneueltstdcn-webfont.eot');
+	src: url('helveticaneueltstdcn-webfont.eot?#iefix') format('embedded-opentype'), url('helveticaneueltstdcn-webfont.woff') format('woff'), url('helveticaneueltstdcn-webfont.ttf') format('truetype'), url('helveticaneueltstdcn-webfont.svg') format('svg');
+}
+@font-face {
+	font-family: 'Myriad Pro Regular';
+	src: url('myriadproregular_2-webfont.eot');
+	src: url('myriadproregular_2-webfont.eot?#iefix') format('embedded-opentype'),  url('myriadproregular_2-webfont.woff') format('woff'),  url('myriadproregular_2-webfont.ttf') format('truetype'),  url('myriadproregular_2-webfont.svg') format('svg');
+}
+@font-face {
+	font-family: 'MyriadPro Light';
+	src: url('MyriadPro-Light.eot');
+	src: url('MyriadPro-Light.eot?#iefix') format('embedded-opentype'),  url('MyriadPro-Light.woff') format('woff'),  url('MyriadPro-Light.ttf') format('truetype'),  url('MyriadPro-Light.svg') format('svg');
+}
+@font-face {
+	font-family: 'open sans regular';
+	src: url('opensans-regular_1-webfont.eot');
+	src: url('opensans-regular_1-webfont.eot?#iefix') format('embedded-opentype'),  url('opensans-regular_1-webfont.woff') format('woff'),  url('opensans-regular_1-webfont.ttf') format('truetype'),  url('opensans-regular_1-webfont.svg') format('svg');
+}
+
+/* FONTES CENTRAL DE DESEMPENHO */
+@font-face {
+	font-family: "central-desempenho";
+	src: url("central-desempenho.eot");
+	src: url("central-desempenho.eot?#iefix") format("embedded-opentype"),  url("central-desempenho.woff") format("woff"),  url("central-desempenho.ttf") format("truetype"),  url("central-desempenho.svg#central-desempenho") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[data-icon]:before {
+	font-family: "central-desempenho" !important;
+	content: attr(data-icon);
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class^="icone-"]:before, [class*=" icone-"]:before {
+	font-family: "central-desempenho" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icone-icone-engenharia-diagnostica:before {
+	content: "\61";
+}
+.icone-icone-norma-desempenho:before {
+	content: "\62";
+}
+.icone-icone-qualidade:before {
+	content: "\63";
+}
+.icone-icone-seta-dir:before {
+	content: "\64";
+}
+.icone-icone-seta-esq:before {
+	content: "\65";
+}
+.icone-icone-telefone:before {
+	content: "\66";
+}
+.ic {
+	font-family: "central-desempenho";
+}
