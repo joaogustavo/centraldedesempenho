@@ -143,7 +143,7 @@ body {
 	bottom: 0;
 	content: '';
 	height: 0;
-	left: -14px;
+	left: 26px;
 	position: absolute;
 	width: 0;
 }
@@ -170,7 +170,7 @@ body {
 	color: #ffffff;
 	display: block;
 	margin: 0 /*38px*/;
-	padding: 7px 12px;
+	padding: 7px 9px;
 	position: relative;
 	text-decoration: none;
 }
